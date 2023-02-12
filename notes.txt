@@ -76,7 +76,7 @@ CREATE TABLE Review(
     Review TEXT
 );
 INSERT INTO Review
-VALUES(1,"Flop")
+VALUES(1,"Flop"),
 VALUES(2,"Average"),
 VALUES(3,"Hit"),
 VALUES(4,"Blockbuster");
@@ -85,7 +85,7 @@ VALUES(4,"Blockbuster");
 
 CREATE TABLE User_details(
     Reviewer_id INTEGER PRIMARY KEY,
-    Movie_id INTEGER FOREIGN KEY
+    Movie_id INTEGER FOREIGN KEY,
     User_name TEXT,
     User_email VARCHAR,
     Rating_id INTEGER FOREIGN KEY,
